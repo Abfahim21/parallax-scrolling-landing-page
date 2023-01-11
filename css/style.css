@@ -27,7 +27,7 @@ header {
     color: #359381;
     pointer-events: none;
 }
-.navigation {
+.navigation a {
     text-decoration: none;
     color: #359381;
     padding: 6px 15px;
@@ -38,4 +38,20 @@ header {
 .navigation a:hover {
     background: #359381;
     color: #fff;
+}
+.navigation a, .navigation a.active {
+    background: #359381;
+    color: #fff;
+}
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #333;
 }
