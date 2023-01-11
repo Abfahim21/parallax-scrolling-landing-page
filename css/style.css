@@ -20,4 +20,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+}
+.navigation {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover {
+    background: #359381;
+    color: #fff;
 }
