@@ -18,7 +18,7 @@ header {
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -26,6 +26,7 @@ header {
     font-size: 2em;
     color: #359381;
     pointer-events: none;
+    margin-right: 460px;
 }
 .navigation a {
     text-decoration: none;
@@ -35,11 +36,8 @@ header {
     margin: 0 10px;
     font-weight: 600;
 }
-.navigation a:hover {
-    background: #359381;
-    color: #fff;
-}
-.navigation a, .navigation a.active {
+.navigation a:hover,
+.navigation a.active {
     background: #359381;
     color: #fff;
 }
@@ -53,7 +51,7 @@ header {
 #text {
     position: absolute;
     font-size: 5em;
-    color: #333;
+    color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .parallax img {
@@ -62,7 +60,4 @@ header {
     left: 0;
     width: 100%;
     pointer-events: none;
-}
-.{
-    dahjah
 }
